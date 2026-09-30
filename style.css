@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F9FC;
+    letter-spacing: 0.6px;
+}
+header {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    padding: 12px;
+    border-bottom: 2px solid #ddd8f5;
+    box-shadow: 0 3px 10px #d8d4e8;
+    text-align: center;
+}
+.logo h1 {
+    color: #1D70A2;
+}
+.logo p {
+    margin: 5px 0;
+    color: #aedbf0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav-links {
+    margin-top: 12px;
+}
+.nav-links a{
+    margin: 0 8px;
+    color: #1D70A2;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#home {
+    position: relative;
+    min-height: 300px;
+    background: linear-gradient(135deg, rgba(8, 70, 97, 1), rgba(12, 87, 145, 0.85));
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 8px;
+}
+.hero-badge {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+.hero-content h2 {
+    color: white;
+    font-size: 42px;
+    margin: 25px 0 15px;
+}
+.hero-content p {
+    color: #E0F2FE;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.hero-button {
+    background-color: #7DD3FC;
+    color: #084661;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.shipping-box {
+    width: 140px;
+    background-color: white;
+    box-shadow: 0 6px 18px rgba(8, 70, 97, 0.308);
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px;
+    position: absolute;
+    bottom: -40px;
+    right: 40px;
+    left: 40px;
+    margin: auto;
+}
+.shipping-box span {
+    font-size: 20px;
+}
+.shipping-box p {
+    margin: 5px;
+    color: #084661;
+    font-size: 12px;
+    font-weight: bold;
+}
+#products {
+    margin: 60px auto;
+    text-align: center;
+}
+#products h2 {
+    color: #084661;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.sec-desc {
+    color: #6B8798;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.product-card {
+    position: relative;
+    width: 80%;
+    max-width: 450px;
+    min-height: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(8, 70, 97, 0.12);
+    text-align: center;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.discount {
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    background-color: #0C5791;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 2;
+}
+.new-badge {
+    position: absolute;
+    top: 18px;
+    right: 55px;
+    background-color: #D9F3FF;
+    color: #084661;
+    padding: 7px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 2;
+}
+.heart {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: #0C5791;
+    border: 1px solid #DCEAF2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    z-index: 2;
+}
+.product-card h3 {
+    color: #084661;
+    font-size: 22px;
+    margin: 10px;
+}
+.rating {
+    color: #F59E0B;
+    font-size: 16px;
+}
+.rating span {
+    color: #7A919F;
+}
+.price {
+    color: #0C5791;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.price span {
+    color: #9AAAB3;
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+.product-card button {
+    background-color: #0C5791;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+#offer {
+    width: 85%;
+    max-width: 900px;
+    min-height: 280px;
+    margin: 70px auto;
+    padding: 45px 25px;
+    background: linear-gradient(135deg, #E0F4FF, #C7E8FA);
+    border: 1px solid #B9DDED;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(8, 70, 97, 0.12);
+    color: #084661;
+    text-align: center;
+}
+.offer-content span {
+    color: #0C5791;
+    font-size: 12px;
+    font-weight: bold;
+}
+.offer-content h2 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+}
+.offer-content p {
+    color: #527487;
+    font-size: 14px;
+}
+.coupon {
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px dashed #0C5791;
+    border-radius: 10px;
+    color: #0C5791;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.offer-content button {
+    background-color: #084661;
+    color: white;
+    padding: 12px 28px;
+    border:none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+}
+.whatsapp img {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+footer {
+    min-height: 180px;
+    padding: 35px 20px;
+    background-color: #084661;
+    color: white;
+    text-align: center;
+}
+footer p {
+    color: #D9F3FF;
+    font-size: 14px;
+    margin: 16px 0;
+}
